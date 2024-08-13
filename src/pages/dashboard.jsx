@@ -201,22 +201,27 @@ const AdminDashboard = ({ token }) => {
                                                             <Grid item xs={12} md={12}>
                                                                 <Typography variant="body1" style={{ fontWeight: 'bold' }}>{booking.name}</Typography>
                                                             </Grid>
-                                                            <Grid item xs={12} md={12}>
-                                                                <Grid container spacing={2} alignItems="center">
-                                                                    <Grid item xs={12} sm={6} md={3}>
+                                                            <Grid item xs={12} sm={6} md={3}>
                                                                         <Typography variant="body2">Check-in: {formatDate(booking.checkInDate)}</Typography>
                                                                     </Grid>
                                                                     <Grid item xs={12} sm={6} md={3}>
                                                                         <Typography variant="body2">Check-out: {formatDate(booking.checkOutDate)}</Typography>
                                                                     </Grid>
+                                                            <Grid item xs={12} md={12}>
+                                                                <Grid container spacing={2} alignItems="center">
+                                                                 
                                                                     <Grid item xs={12} sm={6} md={3}>
                                                                         <Typography variant="body2">Phone Number: {booking.phone}</Typography>
                                                                     </Grid>
-                                                                    <Grid item xs={12} sm={6} md={3}>
-                                                                        <Button  color='error'  variant="outlined" onClick={() => handleDeleteBooking(booking._id)}>Delete</Button>
+                                                                    <Grid item xs={20} sm={8} md={6}>
+                                                                        <Typography variant="body2">Email: {booking.email}</Typography>
                                                                     </Grid>
+                                                                    
                                                                 </Grid>
                                                                 {formatRoomDetails(booking)}
+                                                                <Grid item xs={12} sm={6} md={3}>
+                                                                        <Button  color='error'  variant="outlined" onClick={() => handleDeleteBooking(booking._id)}>Delete</Button>
+                                                                    </Grid>
                                                             </Grid>
                                                         </Grid>
                                                     </Paper>
@@ -238,22 +243,27 @@ const AdminDashboard = ({ token }) => {
                                                             <Grid item xs={12} md={12}>
                                                                 <Typography variant="body1" style={{ fontWeight: 'bold' }}>{booking.name}</Typography>
                                                             </Grid>
-                                                            <Grid item xs={12} md={12}>
-                                                                <Grid container spacing={2} alignItems="center">
-                                                                    <Grid item xs={12} sm={6} md={3}>
+                                                            <Grid item xs={12} sm={6} md={3}>
                                                                         <Typography variant="body2">Check-in: {formatDate(booking.checkInDate)}</Typography>
                                                                     </Grid>
                                                                     <Grid item xs={12} sm={6} md={3}>
                                                                         <Typography variant="body2">Check-out: {formatDate(booking.checkOutDate)}</Typography>
                                                                     </Grid>
+                                                            <Grid item xs={12} md={12}>
+                                                                <Grid container spacing={2} alignItems="center">
+                                                                
                                                                     <Grid item xs={12} sm={6} md={3}>
                                                                         <Typography variant="body2">Phone Number: {booking.phone}</Typography>
                                                                     </Grid>
-                                                                    <Grid item xs={12} sm={6} md={3}>
-                                                                        <Button  color='error'  variant="outlined" onClick={() => handleDeleteBooking(booking._id)}>Delete</Button>
+                                                                    <Grid item xs={20} sm={8} md={6}>
+                                                                        <Typography variant="body2">Email: {booking.email}</Typography>
                                                                     </Grid>
+                                                                  
                                                                 </Grid>
                                                                 {formatRoomDetails(booking)}
+                                                                <Grid item xs={12} sm={6} md={3}>
+                                                                        <Button  color='error'  variant="outlined" onClick={() => handleDeleteBooking(booking._id)}>Delete</Button>
+                                                                    </Grid>
                                                             </Grid>
                                                         </Grid>
                                                     </Paper>
@@ -275,22 +285,27 @@ const AdminDashboard = ({ token }) => {
                                                             <Grid item xs={12} md={12}>
                                                                 <Typography variant="body1" style={{ fontWeight: 'bold' }}>{booking.name}</Typography>
                                                             </Grid>
-                                                            <Grid item xs={12} md={12}>
-                                                                <Grid container spacing={2} alignItems="center">
-                                                                    <Grid item xs={12} sm={6} md={3}>
+                                                            <Grid item xs={12} sm={6} md={3}>
                                                                         <Typography variant="body2">Check-in: {formatDate(booking.checkInDate)}</Typography>
                                                                     </Grid>
                                                                     <Grid item xs={12} sm={6} md={3}>
                                                                         <Typography variant="body2">Check-out: {formatDate(booking.checkOutDate)}</Typography>
                                                                     </Grid>
+                                                            <Grid item xs={12} md={12}>
+                                                                <Grid container spacing={2} alignItems="center">
+                                                                    
                                                                     <Grid item xs={12} sm={6} md={3}>
                                                                         <Typography variant="body2">Phone Number: {booking.phone}</Typography>
                                                                     </Grid>
-                                                                    <Grid item xs={12} sm={6} md={3}>
-                                                                        <Button  color='error'  variant="outlined" onClick={() => handleDeleteBooking(booking._id)}>Delete</Button>
+                                                                    <Grid item xs={20} sm={8} md={6}>
+                                                                        <Typography variant="body2">Email: {booking.email}</Typography>
                                                                     </Grid>
+                                                                   
                                                                 </Grid>
                                                                 {formatRoomDetails(booking)}
+                                                                <Grid item xs={12} sm={6} md={3}>
+                                                                        <Button  color='error'  variant="outlined" onClick={() => handleDeleteBooking(booking._id)}>Delete</Button>
+                                                                    </Grid>
                                                             </Grid>
                                                         </Grid>
                                                     </Paper>
